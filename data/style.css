@@ -1,0 +1,39 @@
+div#article{
+    background-color: gray;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url(../img/CetusSplashScreen.webp    );
+    /*border-image-width: 100%;*/
+   background-size: cover;
+    
+}
+p#cont{
+    color: white;
+    position: relative;
+    
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+display: flex;
+justify-content: space-around;
+}
+
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover {
+background-color: #111;
+}
